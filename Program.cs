@@ -6,13 +6,20 @@ namespace CASA_Interview
     {
         static void Main(string[] args)
         {
-            IsPrime(5);
-            //maybe have a counter to keep track of how many i values
-            //yield result of n%i = 0
+            Program program = new Program();
+            Number number = new Number()
+            // Boolean result = program.IsPrime(num);
 
 
         }
-        public Boolean IsPrime(int n)
+
+    }
+
+    class Number
+    {
+        bool _prime = true;
+        int num;
+        public bool IsPrime(int n)
         {
             //divisibility counter
             int counter = 0;
