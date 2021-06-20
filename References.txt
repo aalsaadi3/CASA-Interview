@@ -1,3 +1,6 @@
 https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns/imp-prime-and-composite-numbers/v/prime-numbers#:~:text=Prime%20numbers%20are%20numbers%20that,factors%20are%20call%20composite%20numbers.
 
 https://www.w3schools.com/cs/cs_for_loop.php
+
+https://www.programiz.com/csharp-programming/basic-input-output#:~:text=In%20C%23%2C%20the%20simplest%20method,also%20included%20in%20Console%20class.
+^taking user input

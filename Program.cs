@@ -7,12 +7,18 @@ namespace CASA_Interview
         static void Main(string[] args)
         {
             Program program = new Program();
+            String keyboard;
             // Boolean result = program.IsPrime(num);
-            bool result = program.IsPrime(6);
+            Console.WriteLine("Enter a number: ");
+            keyboard = Console.ReadLine();
+            int intKeyboard = Convert.ToInt32(keyboard);
+            bool result = program.IsPrime(intKeyboard);
             Console.WriteLine(result);
+
         }
         public bool IsPrime(int n)
         {
+            //divisibility counter
             int counter = 0;
             for (int i = 1; i <= n; i++)
             {
