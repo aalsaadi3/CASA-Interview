@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CASA-Interview/1.0.0": {
+        "runtime": {
+          "CASA-Interview.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CASA-Interview/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -6,7 +6,17 @@ namespace CASA_Interview
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Getting started on Requested Problem");
+            // IsPrime(5);
+            Console.WriteLine(5 % 1);
+            Console.WriteLine(5 % 2);
+            //maybe have a counter to keep track of how many i values
+            //yield result of n%i = 0
+
+
         }
+        // public Boolean IsPrime(int n)
+        // {
+
+        // }
     }
 }

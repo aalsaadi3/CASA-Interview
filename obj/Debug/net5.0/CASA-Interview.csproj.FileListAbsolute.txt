@@ -1,0 +1,16 @@
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.exe
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.deps.json
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.runtimeconfig.json
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.runtimeconfig.dev.json
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.dll
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\ref\CASA-Interview.dll
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\bin\Debug\net5.0\CASA-Interview.pdb
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.csproj.AssemblyReference.cache
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.AssemblyInfoInputs.cache
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.AssemblyInfo.cs
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.dll
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\ref\CASA-Interview.dll
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.pdb
+C:\Users\ahmad\Documents\GitHub\CASA-Interview\obj\Debug\net5.0\CASA-Interview.genruntimeconfig.cache
