@@ -4,3 +4,6 @@ https://www.w3schools.com/cs/cs_for_loop.php
 
 https://www.programiz.com/csharp-programming/basic-input-output#:~:text=In%20C%23%2C%20the%20simplest%20method,also%20included%20in%20Console%20class.
 ^taking user input
+
+https://www.techiedelight.com/measure-execution-time-csharp/
+^Using the stopwatch class 

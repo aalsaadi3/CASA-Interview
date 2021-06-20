@@ -1,20 +1,30 @@
 ﻿using System;
-
+using System.Diagnostics;
 namespace CASA_Interview
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Program program = new Program();
+            Stopwatch stopwatch1 = new Stopwatch();
+            stopwatch1.Start();
             String keyboard;
-            // Boolean result = program.IsPrime(num);
             Console.WriteLine("Enter a number: ");
             keyboard = Console.ReadLine();
+            stopwatch1.Stop();
+            TimeSpan ts1 = stopwatch1.Elapsed;
+            Console.WriteLine("Elapsed Time for Program start and gathering user input is {0:00}:{1:00}:{2:00}.{3}", ts1.Hours, ts1.Minutes, ts1.Seconds, ts1.Milliseconds);
+
+            Stopwatch stopwatch2 = new Stopwatch();
+            stopwatch2.Start();
+            Program program = new Program();
             int intKeyboard = Convert.ToInt32(keyboard);
             bool result = program.IsPrime(intKeyboard);
             Console.WriteLine(result);
-
+            stopwatch2.Stop();
+            TimeSpan ts2 = stopwatch2.Elapsed;
+            Console.WriteLine("Elapsed Time to create program instance, call IsPrime method, and output to console is {0:00}:{1:00}:{2:00}.{3}", ts2.Hours, ts2.Minutes, ts2.Seconds, ts2.Milliseconds);
+            Console.WriteLine("Elapsed time is {0} ms ", stopwatch2.ElapsedMilliseconds);
         }
         public bool IsPrime(int n)
         {
@@ -36,6 +46,6 @@ namespace CASA_Interview
                 return false;
             }
         }
-
     }
 }
+
