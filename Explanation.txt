@@ -1,0 +1,22 @@
+Environment Setup
+
+    We created a basic C# Project in Visual Studio Code in Windows 10.
+    In our local Github Folder, we created the repository "CASA-Interview".
+    We navigated to the directory path using File explorer and launched
+    Windows Command Prompt. We entered "dotnet new console" followed by
+    "code ." to launch our current Environment of choice, which is 
+    Visual Studio Code.
+
+Program Explanation
+
+We add System.Diagnostics and System.Threading in lines 5 and 6 to measure speed
+and time of program execution (more on these namespaces later). I
+
+Down in lines 39 - 58 we make our IsPrime method. We decide to use a for loop and
+if/else logic to achieve our goal. 
+
+
+
+
+***we don't need to waste time with even number iterations if our number is odd,
+figure something out about that.

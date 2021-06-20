@@ -1,6 +1,4 @@
-public bool IsPrime(int n)
-        {
-            //divisibility counter
+//divisibility counter
             int counter = 0;
             for (int i = 1; i <= n; i++)
             {
@@ -13,4 +11,7 @@ public bool IsPrime(int n)
             {
                 return true;
             }
-        }
+            else
+            {
+                return false;
+            }

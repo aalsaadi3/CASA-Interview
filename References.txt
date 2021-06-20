@@ -1,9 +1,29 @@
+https://www.youtube.com/watch?v=CO4BGZOuUkM&t=429s
+^Using C# in Visual Studio Code 
+
 https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns/imp-prime-and-composite-numbers/v/prime-numbers#:~:text=Prime%20numbers%20are%20numbers%20that,factors%20are%20call%20composite%20numbers.
+^Prime Numbers basics
+
+http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/tutorial.htm#:~:text=positive%20primes%22).-,What%20are%20the%20first%20few%20prime%20numbers%3F,100%2C000%20primes%20are%20linked%20below.
+^List of Prime numbers
 
 https://www.w3schools.com/cs/cs_for_loop.php
+^C# for loops
 
 https://www.programiz.com/csharp-programming/basic-input-output#:~:text=In%20C%23%2C%20the%20simplest%20method,also%20included%20in%20Console%20class.
 ^taking user input
 
 https://www.techiedelight.com/measure-execution-time-csharp/
 ^Using the stopwatch class 
+
+https://www.c-sharpcorner.com/UploadFile/dacca2/5-tips-to-improve-performance-of-C-Sharp-code/
+^Optimization tips
+
+https://stackoverflow.com/questions/43524086/break-code-line-with-console-writeline
+^break code line in console.WriteLine
+
+https://www.geeksforgeeks.org/difference-between-int16-int32-and-int64-in-c-sharp/
+^choosing int data type
+
+https://stackoverflow.com/questions/1746302/c-sharp-or-operator
+^Understanding "||" operator in C#, short-circuting
