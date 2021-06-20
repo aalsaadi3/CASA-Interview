@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Threading;
 namespace CASA_Interview
 {
     class Program
@@ -17,14 +18,20 @@ namespace CASA_Interview
 
             Stopwatch stopwatch2 = new Stopwatch();
             stopwatch2.Start();
+            //we suspend previous thread to allow another thread to complete the remainder of the program
+            //this way we measure elapsed time in a more granular manner, divided between Program start and gathering 
+            //user input vs creating a program instance, typecasting string input to integer, calling IsPrime method 
+            //and outputting result.
+            Thread.Sleep(1000);
             Program program = new Program();
             int intKeyboard = Convert.ToInt32(keyboard);
             bool result = program.IsPrime(intKeyboard);
             Console.WriteLine(result);
             stopwatch2.Stop();
             TimeSpan ts2 = stopwatch2.Elapsed;
-            Console.WriteLine("Elapsed Time to create program instance, call IsPrime method, and output to console is {0:00}:{1:00}:{2:00}.{3}", ts2.Hours, ts2.Minutes, ts2.Seconds, ts2.Milliseconds);
-            Console.WriteLine("Elapsed time is {0} ms ", stopwatch2.ElapsedMilliseconds);
+
+            Console.WriteLine("Elapsed Time (including thread sleep) to create program instance, call IsPrime method, " +
+             "and output to console is {0:00}:{1:00}:{2:00}.{3}", ts2.Hours, ts2.Minutes, ts2.Seconds, ts2.Milliseconds);
         }
         public bool IsPrime(int n)
         {
