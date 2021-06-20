@@ -7,21 +7,12 @@ namespace CASA_Interview
         static void Main(string[] args)
         {
             Program program = new Program();
-            Number number = new Number()
             // Boolean result = program.IsPrime(num);
-
-
+            bool result = program.IsPrime(6);
+            Console.WriteLine(result);
         }
-
-    }
-
-    class Number
-    {
-        bool _prime = true;
-        int num;
         public bool IsPrime(int n)
         {
-            //divisibility counter
             int counter = 0;
             for (int i = 1; i <= n; i++)
             {
@@ -34,6 +25,11 @@ namespace CASA_Interview
             {
                 return true;
             }
+            else
+            {
+                return false;
+            }
         }
+
     }
 }
