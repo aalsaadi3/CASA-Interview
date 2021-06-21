@@ -3,7 +3,6 @@ Ahmad Al Saadi, 06/18/2021 - 06/21/2021
 */
 using System;
 using System.Diagnostics;
-//we removed System.Threading
 namespace CASA_Interview
 {
     class Program
@@ -16,24 +15,20 @@ namespace CASA_Interview
             Console.WriteLine("Enter a number: ");
             keyboard = Console.ReadLine();
             stopwatch.Stop();
-            //we removed the TimeSpan object
-            Console.WriteLine("Elapsed Time for Program start and gathering user input is " + stopwatch.ElapsedTicks);
-            //we replaced comman in console.writeline with +
+            Console.WriteLine("Elapsed Time for Program start and gathering user input is " + stopwatch.ElapsedTicks + " ticks.");
 
             stopwatch.Restart();
-            //we suspend previous thread to allow another thread to complete the remainder of the program
-            //this way we measure elapsed time in a more granular manner, divided between Program start and gathering 
-            //user input vs creating a program instance, typecasting string input to integer, calling IsPrime method 
-            //and outputting result.
+            //we reset the stopwatch in an attempt to measure program start and input gathering separately
+            //from the typecasting and calling of the IsPrime function.
+           
             Program program = new Program();
             int intKeyboard = Convert.ToInt32(keyboard);
             bool result = program.IsPrime(intKeyboard);
             Console.WriteLine(result);
             stopwatch.Stop();
-            //we removed the TimeSpan object
 
             Console.WriteLine("Elapsed Time to create program instance, typecast user input, and call " +
-             "IsPrime method and output to console is " + stopwatch.ElapsedTicks);
+             "IsPrime method and output to console is " + stopwatch.ElapsedTicks + " ticks.");
         }
         public bool IsPrime(int n)
         {
