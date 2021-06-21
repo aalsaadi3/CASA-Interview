@@ -9,6 +9,8 @@ Environment Setup
 
 Program Explanation
 
+    We use Program.cs for all our work in the application.
+
     We add System.Diagnostics to measure speed and time of program execution (more on 
     this namespace later). I
 
@@ -29,3 +31,5 @@ Program Explanation
     We first use it to log number of ticks taken For application to start and gather user input.
     We reset it and use it again to log number of ticks taken to typecast input to integer,
     pass it to the IsPrime function and output the result.
+    
+    
