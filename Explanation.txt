@@ -9,12 +9,26 @@ Environment Setup
 
 Program Explanation
 
-We add System.Diagnostics and System.Threading in lines 5 and 6 to measure speed
-and time of program execution (more on these namespaces later). I
+    We add System.Diagnostics to measure speed and time of program execution (more on 
+    this namespace later). I
 
-Down in lines 39 - 58 we make our IsPrime method. We decide to use a for loop and
-if/else logic to achieve our goal. 
+    In our IsPrime method, we decide to rule out several numbers using if statements.
+    We rule out numbers from most common to least common non-prime numbers:
+    #1) Negative numbers, 0 and 1
+    #2) Even numbers besides 2
+    #3) Multiples of 3, 5, and 7 (except for those numbers themselves)
 
+    Numbers not meeting any of the above criteria will go through for loop iterations.
+    We have a divisibilty counter that auto increments if n is found to be completely divisible
+    by the index of the current iteration. If the counter exceeds 2, it will automatically 
+    break out of the loop prevent unnecessary iterations as the n is clearly not prime.
+
+    Only if the counter equals 2 will the number the function return true since n is prime.
+
+    Notice in our main method we use a Stopwatch object from the System.Diagnostics namespace.
+    We first use it to log number of ticks taken For application to start and gather user input.
+    We reset it and use it again to log number of ticks taken to typecast input to integer,
+    pass it to the IsPrime function and output the result.
 
 
 
