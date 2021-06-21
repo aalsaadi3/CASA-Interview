@@ -29,8 +29,3 @@ Program Explanation
     We first use it to log number of ticks taken For application to start and gather user input.
     We reset it and use it again to log number of ticks taken to typecast input to integer,
     pass it to the IsPrime function and output the result.
-
-
-
-***we don't need to waste time with even number iterations if our number is odd,
-figure something out about that.
