@@ -38,7 +38,20 @@ namespace CASA_Interview
         }
         public bool IsPrime(int n)
         {
-            if ((n % 2 == 0 && n != 2) || n == 0 || n == 1)
+            //Negative numbers, 0 and 1 are not prime
+            if (n <= 1)
+            {
+                return false;
+            }
+            //if is even but not equal to 2 return false since its not prime
+            if (n % 2 == 0 && n != 2)
+            {
+                return false;
+            }
+            //their are many non-prime numbers that are multiples of 3, 5, and 7
+            //if n is a multiple of 3 or 5 or 7 and n is greater than or equal to 
+            //9 than return false since it is not a prime number
+            else if ((n % 3 == 0 || n % 5 == 0 || n % 7 == 0) && n >= 9)
             {
                 return false;
             }
